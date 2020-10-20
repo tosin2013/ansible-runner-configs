@@ -1,0 +1,16 @@
+    {
+        "admin_user": "admin",
+        "configure_kvm_host": true,
+        "create_libvirt_storage": "yes",
+        "configure_bash_profile": "yes",
+        "configure_bridge": "yes",
+        "configure_static_ip": true,
+        "qubinode_bridge_device": "qubibr0",
+        "gateway_ip": "192.168.0.1",
+        "bridge_interface": "eno1",
+        "netmask_prefix": "",
+        "ip_address": "192.168.0.10",
+        "host_netmask": "255.255.255.0",
+        "mac_address": "ca:8e:f9:a4:3e:b3",
+        "mtu": 1500
+    }

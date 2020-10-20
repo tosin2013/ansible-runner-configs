@@ -1,0 +1,8 @@
+    {
+       "admin_user": "admin",
+       "configure_kvm_host": true,
+       "create_libvirt_storage": "yes",
+       "configure_bash_profile": "yes",
+       "configure_bridge": "yes",
+       "configure_static_ip": false
+    }

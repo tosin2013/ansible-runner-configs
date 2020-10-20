@@ -1,0 +1,8 @@
+{
+   "admin_user": "admin",
+   "collect_generic_info": true,
+   "domain": "example-lab-server2.com",
+   "vm_domain": "example-lab-server2.com",
+   "public_domain": "example-lab-server2.com",
+   "qcow_rhel_name": "rhel-8.2-x86_64-kvm.qcow2"
+}

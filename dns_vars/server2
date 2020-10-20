@@ -1,0 +1,7 @@
+    {
+       "configure_idm_info": true,
+       "admin_user": "admin",
+       "idm_check_static_ip": "no",
+       "domain": "example-lab-server2.com",
+       "vm_libvirt_net": "qubinet"
+    }

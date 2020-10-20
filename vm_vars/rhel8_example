@@ -1,0 +1,25 @@
+{
+   "cloud_init_vm_image": "rhel-8.2-x86_64-kvm.qcow2",
+   "vm_teardown": false,
+   "vm_recreate": false,
+   "configure_rhel_vm_info": true,
+   "expand_os_disk": "no",
+   "rhel_7_hash": null,
+   "rhel_8_hash": null,
+   "rhel_release": 8,
+    "rhel_enable": true,
+    "rhel_extra_storage": [
+       {
+          "enable": false,
+          "size": ""
+       }
+    ],
+    "rhel_group": "rhel",
+    "rhel_recreate": false,
+    "rhel_root_disk_size": "20G",
+    "rhel_vcpu": 1,
+   "rhel_memory": 800,
+   "rhel_name": "rhel8_example",
+   "update_etc_resolv": "no",
+   "vm_root_disk_size": "{{ rhel_server_vm.rhel_root_disk_size }}"
+}
